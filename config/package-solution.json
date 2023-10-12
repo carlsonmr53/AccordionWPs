@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "accordion-w-ps-client-side-solution",
+    "id": "f182f36c-6d4b-456d-a5eb-81904cc1372b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Accordion-WPs description"
+      },
+      "longDescription": {
+        "default": "Accordion-WPs description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "accordion-w-ps Feature",
+        "description": "The feature that activates elements of the accordion-w-ps solution.",
+        "id": "c1d2401b-fcf0-427f-88c5-52d4ee73a2cd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/accordion-w-ps.sppkg"
+  }
+}

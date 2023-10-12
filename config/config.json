@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "accordion-v-0-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accordionV0/AccordionV0WebPart.js",
+          "manifest": "./src/webparts/accordionV0/AccordionV0WebPart.manifest.json"
+        }
+      ]
+    },
+    "accordion-v-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accordionV1/AccordionV1WebPart.js",
+          "manifest": "./src/webparts/accordionV1/AccordionV1WebPart.manifest.json"
+        }
+      ]
+    },
+    "accordion-v-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accordionV2/AccordionV2WebPart.js",
+          "manifest": "./src/webparts/accordionV2/AccordionV2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js",
+    "jqueryui": "node_modules/jqueryui/jquery-ui.min.js"
+  },
+  "localizedResources": {
+    "AccordionV0WebPartStrings": "lib/webparts/accordionV0/loc/{locale}.js",
+    "AccordionV1WebPartStrings": "lib/webparts/accordionV1/loc/{locale}.js",
+    "AccordionV2WebPartStrings": "lib/webparts/accordionV2/loc/{locale}.js"
+  }
+}
